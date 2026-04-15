@@ -65,7 +65,8 @@ main {
     min-height: 100vh;
 }
 #proyectos-conteiner {
-    margin: 2rem;
+    margin-top: 2rem;
+    flex: 3;
 }
 
 .proyectos {
@@ -76,6 +77,7 @@ main {
     height: 200px;
     width: 300px;
 }
+<<<<<<< HEAD
 
 .Integrantes {
 
@@ -97,4 +99,23 @@ main {
 .Integrantes h3 {
     margin: 5px 0;
     font-size: 14px;
+=======
+#main-container {
+    margin-top: 90px;
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+
+.filtros {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+>>>>>>> 8e9d1366c6c758042b6c4a041400d7b1310749b3
 }
