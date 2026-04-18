@@ -117,3 +117,10 @@ main {
     flex-direction: column;
     gap: 15px;
 }
+
+#footer-project {
+    background-color: rgb(50, 120, 115);
+    color: white;
+    padding-bottom: 1rem;
+    
+}
