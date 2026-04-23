@@ -67,6 +67,7 @@ main {
 #proyectos-conteiner {
     margin-top: 2rem;
     flex: 3;
+    text-decoration: none;
 }
 
 .proyectos {
@@ -74,8 +75,11 @@ main {
 }
 
 .img-project {
-    height: 300px;
-    width: 400px;
+    width: 80%;
+    height: 10%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px 1px rgba(32,32,32,0.3);
+    
 }
 
 .Integrantes {
@@ -99,13 +103,14 @@ main {
     margin: 5px 0;
     font-size: 14px;
 }
-#main-container {
-    margin-top: 90px;
+
+#div-main {
+margin-top: 90px;
     display: flex;
     gap: 40px;
     padding: 20px;
     align-items: flex-start;
-    flex-direction: row-reverse;
+    flex-direction: row-reverse; 
 }
 
 .filtros {
@@ -116,6 +121,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    width: 10%;
 }
 
 #footer-project {
@@ -123,4 +129,21 @@ main {
     color: white;
     padding-bottom: 1rem;
     
+}
+#title-project {
+    font-size: 1.5rem;
+    color: rgb(2, 22, 103);
+    text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
+    width: fit-content;
+    height: 8px;
+}
+
+#project-page {
+    font-family:Montserrat;
+    
+}
+.title-img{
+    font-size: 2.5rem;
+    color:rgb(17, 1, 75);
+    text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
 }

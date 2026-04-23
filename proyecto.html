@@ -1,108 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyectos</title>
     <link rel="stylesheet" href="/css/style.css">
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+</style>
 </head>
-<body>
+
+<body id="project-page">
+
+    <header id="header-project">
         
-<header>
-    <nav>
-<ul class="nav-links">
-    <li><a href="detalle.html">Detalles</a></li>
-    <li><a href="perfil.html">Perfil</a></li>
-    <li><a href="index.html">Inicio</a></li>
-</ul>
-</nav>
+        <nav>
+            <h1 id="title-project">Proyectos</h1>
+            <ul class="nav-links">
+                <li><a href="detalle.html">Detalles</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="index.html">Inicio</a></li>
+            </ul>
+        </nav>
 
-</header>
+    </header>
 
-<main id="main-container">
-    
+    <main>
+        
 
-<section class="filtros">
-    <h2>Filtrar por:</h2>
-    <form action="">
-        <div class="filtro-grupo">
-        <label for="filtro-categoria">Categoria</label>
-    <select id="filtro-categoria">
-        <option value="all">Todas las categorias</option>
-        <option value="Videojuego">Tecnologia</option>
-        <option value="Aplicación">Programación</option>
-    </select>
-    </div>
+        <div id="div-main">
+            <section class="filtros">
+                <h2>Filtrar por:</h2>
+                <form>
+                    <div class="filtro-grupo">
+                        <label for="filtro-categoria">Categoria</label>
+                        <select id="filtro-categoria">
+                            <option value="all">Todas las categorias</option>
+                            <option value="Videojuego">Tecnologia</option>
+                            <option value="Aplicación">Programación</option>
+                        </select>
+                    </div>
 
-    <div class="filtro-grupo">   
-    <label for="filtro-año">año</label>
-    <select id="filtro-año">
-        <option value="all">Todos los años</option>
-        <option value="2026">2026</option>
-        <option value="2025">2025</option>
-    </select>
-    </div>
-<div class="filtro-grupo">
-    <label for="filtro-estado">estado</label>
-    <select id="filtro-estado">
-        <option value="Todos los estados">Todos los años</option>
-        <option value="En curso">En curso</option>
-        <option value="Finalizado">Finalizado</option>
-    </select>
-    
-    </div>
-    </form>
-</section>
+                    <div class="filtro-grupo">
+                        <label for="filtro-año">año</label>
+                        <select id="filtro-año">
+                            <option value="all">Todos los años</option>
+                            <option value="2026">2026</option>
+                            <option value="2025">2025</option>
+                        </select>
+                    </div>
+                    <div class="filtro-grupo">
+                        <label for="filtro-estado">estado</label>
+                        <select id="filtro-estado">
+                            <option value="Todos los estados">Todos los años</option>
+                            <option value="En curso">En curso</option>
+                            <option value="Finalizado">Finalizado</option>
+                        </select>
+
+                    </div>
+                </form>
+            </section>
 
 
-    <section id="proyectos-conteiner">
-<article class="proyectos">
-<h3>Ahorcado</h3>
-<img src="/img/unnamed.png" alt="juego del ahorcado" class="img-project">
-<p>el videojuego de ahorcado programado con c++</p>
-<p><strong>Categoria: </strong>Videojuegos</p>
-<a href="/detalle.html">mas información</a>
-<p><strong>Estado:</strong> Finalizado </p>
-</article>
-<article class="proyectos">
-    <h3>Vida planeta</h3>
-    <img src="/img/huerto-1-1024x560-1.jpg" alt="Huerta escolar" class="img-project">
-    <p>proyecto para sembrar plantas en la institución e incitar a los estudiantes cuidar el medio ambiente</p>
-    <p><strong>Categoria:</strong> Medio ambiente </p>
-    <a href="/detalle.html">mas información...</a>
-    <p><strong>Estado:</strong> en curso</p>
-</article>
-<article class="proyectos">
-    <h3>taller de robotica</h3>
-    <img src="/img/grupo-jovenes-haciendo-experimentos-robotica-laboratorio-chicas-gafas-protectoras_1268-24389.avif" alt="Robotica" class="img-project">
-    <p>creación y programación de robots donde los alumnos interesados en la robotica aprenden a programar robots</p>
-    <p><strong>Categoria:</strong> Tecnologia</p>
-    <a href="/detalle.html">mas información</a>
-    <p><strong>Estado:</strong> finalizado</p>
-</article>
-
-<article class="proyectos">
-    <h3>Hablemos un poco de todo</h3>
-    <img src="/img/friends-talking-while-having-the-podcast-vector.jpg" alt="taller de radio y podcast educativo" class="img-project">
-    <p>Podcast para charlar sobre cosas de la vida diaria de los estudiantes</p>
-    <p><strong>Categoria:</strong> Comunicación</p>
-    <a href="/detalle.html">mas información...</a>
-    <p><strong>Estado: </strong>En curso</p>
-</article>
-<article class="proyectos">
-    <h3>sumergirse en los libros</h3>
-<img src="/img/club-de-lectura-libros-al-aire-bvt-2-1024x683.jpg" alt="club de literatura" class="img-project">
-<p>club de lectura para que todos juntos leamos y compartamos</p>
-<p><strong>Categoria: </strong> Literatura</p>
-<a href="/detalle.html">mas información...</a>
-<p><strong>Estado: </strong> en curso </p>
-</article>
-</section>
-</main>
-<footer id="footer-project">
-    <p>© 2026 Plataforma Educativa. Todos los derechos reservados</p>
-    <a href="/index.html">inicio</a>
-    <a href="/perfil.html">contacto</a>
-</footer>
+            <section id="proyectos-conteiner">
+                <article class="proyectos">
+                    <h3 class="title-img">Ahorcado</h3>
+                    <img src="/img/unnamed.png" alt="juego del ahorcado" class="img-project">
+                    <p>El videojuego de ahorcado programado con c++.</p>
+                    <p><strong>Categoria: </strong>Videojuegos</p>
+                    <a href="/detalle.html">mas información</a>
+                    <p><strong>Estado:</strong> Finalizado </p>
+                </article>
+                <article class="proyectos">
+                    <h3 class="title-img">Vida planeta</h3>
+                    <img src="/img/huerto-1-1024x560-1.jpg" alt="Huerta escolar" class="img-project">
+                    <p>Proyecto para sembrar plantas en la institución e incitar a los estudiantes cuidar el medio
+                        ambiente.</p>
+                    <p><strong>Categoria:</strong> Medio ambiente </p>
+                    <a href="/detalle.html">mas información...</a>
+                    <p><strong>Estado:</strong> en curso</p>
+                </article>
+                <article class="proyectos">
+                    <h3 class="title-img">taller de robotica</h3>
+                    <img src="/img/grupo-jovenes-haciendo-experimentos-robotica-laboratorio-chicas-gafas-protectoras_1268-24389.avif"
+                        alt="Robotica" class="img-project">
+                    <p>Creación y programación de robots donde los alumnos interesados en la robotica aprenden a
+                        programar robots.</p>
+                    <p><strong>Categoria:</strong> Tecnologia</p>
+                    <a href="/detalle.html">mas información</a>
+                    <p><strong>Estado:</strong> finalizado</p>
+                </article>
+                <article class="proyectos">
+                    <h3 class="title-img">Hablemos un poco de todo</h3>
+                    <img src="/img/friends-talking-while-having-the-podcast-vector.jpg"
+                        alt="taller de radio y podcast educativo" class="img-project">
+                    <p>Podcast para charlar sobre cosas de la vida diaria de los estudiantes.</p>
+                    <p><strong>Categoria:</strong> Comunicación</p>
+                    <a href="/detalle.html">mas información...</a>
+                    <p><strong>Estado: </strong>En curso</p>
+                </article>
+                <article class="proyectos">
+                    <h3 class="title-img">sumergirse en los libros</h3>
+                    <img src="/img/club-de-lectura-libros-al-aire-bvt-2-1024x683.jpg" alt="club de literatura"
+                        class="img-project">
+                    <p>Club de lectura para que todos juntos leamos y compartamos.</p>
+                    <p><strong>Categoria: </strong> Literatura</p>
+                    <a href="/detalle.html">mas información...</a>
+                    <p><strong>Estado: </strong> en curso </p>
+                </article>
+            </section>
+        </div>
+    </main>
+    <footer id="footer-project">
+        <p>© 2026 Plataforma Educativa. Todos los derechos reservados.</p>
+        <a href="/index.html">inicio</a>
+        <a href="/perfil.html">contacto</a>
+    </footer>
 </body>
+
 </html>
