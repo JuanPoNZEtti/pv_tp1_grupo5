@@ -76,3 +76,10 @@ main {
     height: 200px;
     width: 300px;
 }
+
+/* Estilos para la sección de Detalle */
+
+.header-detalle {
+    align-items: center;
+
+}
