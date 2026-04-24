@@ -136,3 +136,24 @@ main {
     color: rgba(83, 80, 80, 0.852);
     text-decoration: none;
 }
+
+.seccion-detalle table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.635);
+    color:white;
+}
+
+.seccion-detalle th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-detalle {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(50, 120, 115);
+    color: white;
+    margin-top: 30px;
+}
