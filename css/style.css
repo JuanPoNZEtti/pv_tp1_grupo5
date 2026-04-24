@@ -80,6 +80,24 @@ main {
 /* Estilos para la sección de Detalle */
 
 .header-detalle {
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+.header-detalle h2 {
+    font-size: 20px;
+}
+
+.header-detalle ul {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.header-detalle li {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.587);
+    padding: 5px 10px;
+    border-radius: 10px;
 }
