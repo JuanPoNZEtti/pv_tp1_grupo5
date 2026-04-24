@@ -147,3 +147,84 @@ margin-top: 90px;
     color:rgb(17, 1, 75);
     text-shadow: 1px 1px 1px rgba(32,32,32,0.3);
 }
+
+/* Estilos para la sección de Detalle */
+
+.header-detalle {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.header-detalle h2 {
+    font-size: 20px;
+}
+
+.header-detalle ul {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.header-detalle li {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.587);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.main-detalle {
+    margin-top: 180px;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 30px;
+}
+
+.main.detalle p {
+    line-height: 1.6;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.main-detalle aside {
+    background-color:rgba(255, 255, 255, 0.587);
+    padding: 50px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.main-detalle aside ul{
+    list-style: none;
+    margin: 5px
+}
+
+.main-detalle aside li{
+    margin: 10px
+}
+
+.main-detalle aside a{
+    color: rgba(83, 80, 80, 0.852);
+    text-decoration: none;
+}
+
+.seccion-detalle table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.635);
+    color:white;
+}
+
+.seccion-detalle th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-detalle {
+    text-align: center;
+    padding: 15px;
+    background-color: rgb(50, 120, 115);
+    color: white;
+    margin-top: 30px;
+}
